@@ -4,10 +4,11 @@
   <meta charset="UTF-8" />
   <title>DigiGrads Lunch Map</title>
 
-  <!-- Leaflet -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <link rel="stylesheet" href="styles.css" />
+  <!-- Leaflet CSS -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,6 +18,7 @@
     rel="stylesheet"
   />
 
+  <!-- App styles -->
   <link rel="stylesheet" href="styles.css" />
 </head>
 
@@ -29,7 +31,6 @@
   </header>
 
   <main class="app-shell">
-    <!-- Sidebar -->
     <aside class="sidebar">
       <div class="card">
         <label for="scoreFilter">Minimum score</label>
@@ -52,14 +53,13 @@
       </div>
     </aside>
 
-    <!-- Map -->
     <section id="map"></section>
   </main>
 
-  <!-- Leaflet -->
+  <!-- Leaflet JS (LOAD ONCE, HERE) -->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
-  <!-- Your existing JS -->
+  <!-- Your map logic -->
   <script src="map.js"></script>
 </body>
 </html>
