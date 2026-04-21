@@ -1,30 +1,66 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <title>Lunch Rankings Map</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8" />
+  <title>DigiGrads Lunch Map</title>
 
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <!-- Leaflet -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-<header>
-  <h1>DigiGrads Lunch Rankings</h1>
-  <label>
-    Minimum score:
-    <input id="minScore" type="range" min="0" max="5" step="0.1" value="0" />
-    <span id="minScoreValue">0.0</span>
-  </label>
-</header>
-<main>
-  <div id="map"></div>
-  <aside>
-    <h2>Leaderboard</h2>
-    <ol id="list"></ol>
-  </aside>
-</main>
-<script src="app.js"></script>
+  <header class="app-header">
+    <div class="header-text">
+      <h1>DigiGrads Lunch Rankings</h1>
+      <p>Discover the best lunch spots around Melbourne CBD</p>
+    </div>
+  </header>
+
+  <main class="app-shell">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="card">
+        <label for="scoreFilter">Minimum score</label>
+        <div class="range-row">
+          <input
+            type="range"
+            id="scoreFilter"
+            min="0"
+            max="5"
+            step="0.1"
+            value="0"
+          />
+          <span id="scoreValue">0.0</span>
+        </div>
+      </div>
+
+      <div class="card leaderboard">
+        <h2>Leaderboard</h2>
+        <ol id="leaderboard"></ol>
+      </div>
+    </aside>
+
+    <!-- Map -->
+    <section id="map"></section>
+  </main>
+
+  <!-- Leaflet -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Your existing JS -->
+  <script src="map.js"></script>
 </body>
 </html>
