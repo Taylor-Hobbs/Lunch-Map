@@ -1,5 +1,12 @@
 const map = L.map('map').setView([-37.814,144.96332],14);
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap contributors'}).addTo(map);
+L.tileLayer(
+  'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
+  {
+    attribution: '© OpenStreetMap © CARTO',
+    subdomains: 'abcd',
+    maxZoom: 20
+  }
+).addTo(map);
 
 const list = document.getElementById('leaderboard');
 const slider = document.getElementById('scoreFilter');
@@ -28,11 +35,4 @@ fetch('data/lunch_spots_enriched.geojson').then(r=>r.json()).then(g=>{
   render();
 });
 slider.addEventListener('input',render);
-L.tileLayer(
-  'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
-  {
-    attribution: '© OpenStreetMap © CARTO',
-    subdomains: 'abcd',
-    maxZoom: 20
-  }
-).addTo(map);
+
