@@ -28,3 +28,11 @@ fetch('data/lunch_spots_enriched.geojson').then(r=>r.json()).then(g=>{
   render();
 });
 slider.addEventListener('input',render);
+L.tileLayer(
+  'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
+  {
+    attribution: '© OpenStreetMap © CARTO',
+    subdomains: 'abcd',
+    maxZoom: 20
+  }
+).addTo(map);
