@@ -1,4 +1,313 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.955887,
+          -37.8203125
+        ]
+      },
+      "properties": {
+        "name": "Jalan Alor",
+        "cuisine": "Malaysian",
+        "scaled_score": 3.99,
+        "total": 3.7,
+        "price": 5.0,
+        "flavour": 3.83,
+        "portion": 3.75,
+        "efficiency": 2.5,
+        "convenience": 3.43,
+        "address": "8 Downie St, Melbourne VIC 3000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.962646,
+          -37.8186264
+        ]
+      },
+      "properties": {
+        "name": "Luke's",
+        "cuisine": "Banh Mi",
+        "scaled_score": 3.93,
+        "total": 3.53,
+        "price": 3.89,
+        "flavour": 4.39,
+        "portion": 4.83,
+        "efficiency": 2.22,
+        "convenience": 2.63,
+        "address": "2 Queen St, Melbourne VIC 3000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.963333,
+          -37.8123741
+        ]
+      },
+      "properties": {
+        "name": "Spudbar",
+        "cuisine": "White man?",
+        "scaled_score": 3.84,
+        "total": 3.98,
+        "price": 3.35,
+        "flavour": 3.5,
+        "portion": 4.78,
+        "efficiency": 3.75,
+        "convenience": 4.5,
+        "address": "287 Lonsdale St, Melbourne VIC 3000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.955521,
+          -37.81916
+        ]
+      },
+      "properties": {
+        "name": "GYG",
+        "cuisine": "Mexican",
+        "scaled_score": 3.62,
+        "total": 3.74,
+        "price": 3.43,
+        "flavour": 3.48,
+        "portion": 3.75,
+        "efficiency": 3.78,
+        "convenience": 4.25,
+        "address": "7A/567 Collins St, Melbourne VIC 3000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.960266,
+          -37.8146439
+        ]
+      },
+      "properties": {
+        "name": "Namoo",
+        "cuisine": "Japanese",
+        "scaled_score": 3.6,
+        "total": 3.85,
+        "price": 2.9,
+        "flavour": 3.84,
+        "portion": 3.25,
+        "efficiency": 4.75,
+        "convenience": 4.5,
+        "address": "1/167 Queen St, Melbourne VIC 3000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.171448,
+          -37.8349648
+        ]
+      },
+      "properties": {
+        "name": "Isshin",
+        "cuisine": "Japanese",
+        "scaled_score": 3.58,
+        "total": 3.65,
+        "price": 3.5,
+        "flavour": 3.53,
+        "portion": 3.53,
+        "efficiency": 3.33,
+        "convenience": 4.33,
+        "address": "320-324 Canterbury Rd, Forest Hill VIC 3131"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.955383,
+          -37.81913
+        ]
+      },
+      "properties": {
+        "name": "Poked",
+        "cuisine": "Poke Hipster",
+        "scaled_score": 3.38,
+        "total": 3.36,
+        "price": 2.5,
+        "flavour": 4.5,
+        "portion": 3.0,
+        "efficiency": 2.8,
+        "convenience": 4.0,
+        "address": "Tenancy 8, 567 Collins St, Melbourne VIC 3000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95787,
+          -37.8153572
+        ]
+      },
+      "properties": {
+        "name": "Amie's",
+        "cuisine": "Bahn Mi",
+        "scaled_score": 3.3,
+        "total": 3.65,
+        "price": 2.5,
+        "flavour": 3.75,
+        "portion": 2.25,
+        "efficiency": 4.75,
+        "convenience": 5.0,
+        "address": "11/181 William St, Melbourne VIC 3000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.958817,
+          -37.81911
+        ]
+      },
+      "properties": {
+        "name": "Kobab",
+        "cuisine": "Korean",
+        "scaled_score": 3.27,
+        "total": 3.48,
+        "price": 2.88,
+        "flavour": 3.2,
+        "portion": 3.18,
+        "efficiency": 3.13,
+        "convenience": 5.0,
+        "address": "LG02/15 William St, Melbourne VIC 3000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.962936,
+          -37.81533
+        ]
+      },
+      "properties": {
+        "name": "Nosh",
+        "cuisine": "Poke Hipster",
+        "scaled_score": 3.13,
+        "total": 3.42,
+        "price": 2.0,
+        "flavour": 3.8,
+        "portion": 2.6,
+        "efficiency": 3.7,
+        "convenience": 5.0,
+        "address": "352 Little Collins St, Melbourne VIC 3000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.95578,
+          -37.819046
+        ]
+      },
+      "properties": {
+        "name": "Benny's",
+        "cuisine": "Banh Mi",
+        "scaled_score": 2.76,
+        "total": 3.05,
+        "price": 2.38,
+        "flavour": 2.5,
+        "portion": 2.63,
+        "efficiency": 3.25,
+        "convenience": 4.5,
+        "address": "3/567 Collins St, Melbourne VIC 3000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.966019,
+          -37.8166237
+        ]
+      },
+      "properties": {
+        "name": "Fish bowl",
+        "cuisine": "Poke Hipster",
+        "scaled_score": 3.36,
+        "total": 3.61,
+        "price": 3.17,
+        "flavour": 3.17,
+        "portion": 2.87,
+        "efficiency": 4.5,
+        "convenience": 4.33,
+        "address": "2/242 Flinders Ln, Melbourne VIC 3000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9558,
+          -37.8199425
+        ]
+      },
+      "properties": {
+        "name": "Banh Mi Stand",
+        "cuisine": "Banh Mi",
+        "scaled_score": 2.36,
+        "total": 2.44,
+        "price": 1.25,
+        "flavour": 2.95,
+        "portion": 3.0,
+        "efficiency": 1.0,
+        "convenience": 4.0,
+        "address": "547 Flinders Ln, Melbourne VIC 3000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.952988,
+          -37.8175545
+        ]
+      },
+      "properties": {
+        "name": "Pasha Kebab",
+        "cuisine": "Turkish/Kebab",
+        "scaled_score": 2.29,
+        "total": 2.29,
+        "price": 2.0,
+        "flavour": 2.83,
+        "portion": 1.75,
+        "efficiency": 2.13,
+        "convenience": 2.75,
+        "address": "Shop 6/99 Spencer St, Docklands VIC 3008 (Southern Cross Station)"
+      }
+    }
+  ]
 }
