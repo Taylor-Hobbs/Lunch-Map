@@ -1,6 +1,6 @@
 const map = L.map('map').setView([-37.814,144.96332],14);
 L.tileLayer(
-  'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
+  'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',
   {
     attribution: '© OpenStreetMap © CARTO',
     subdomains: 'abcd',
@@ -25,9 +25,9 @@ function render(){
   .forEach(p=>{
     const m=L.circleMarker([p.lat, p.lng], {
   radius: 7,
-  fillColor: '#2563eb',
+  fillColor: '#fff',
   fillOpacity: 0.85,
-  color: '#2563eb',
+  color: '#fff',
   weight: 6,
   opacity: 0.25
 }).addTo(map);
