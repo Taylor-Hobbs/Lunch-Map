@@ -23,7 +23,14 @@ function render(){
   const min=Number(slider.value); sliderValue.textContent=min.toFixed(1);
   points.filter(p=>p.scaled_score>=min).sort((a,b)=>b.scaled_score-a.scaled_score)
   .forEach(p=>{
-    const m=L.circleMarker([p.lat,p.lng],{radius:8,color:color(p.scaled_score),fillOpacity:0.8}).addTo(map);
+    const m=L.circleMarker([p.lat, p.lng], {
+  radius: 7,
+  fillColor: '#2563eb',
+  fillOpacity: 0.85,
+  color: '#2563eb',
+  weight: 6,
+  opacity: 0.25
+}).addTo(map);
     m.bindPopup(`<strong>${p.name}</strong><br/>${p.cuisine}<br/>Score: ${p.scaled_score.toFixed(2)}`);
     markers.push(m);
     const li=document.createElement('li'); li.textContent=`${p.name} (${p.scaled_score.toFixed(2)})`;
