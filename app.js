@@ -1,12 +1,13 @@
 const map = L.map('map').setView([-37.814,144.96332],14);
 L.tileLayer(
-  'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
+  'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
   {
     attribution: '© OpenStreetMap © CARTO',
     subdomains: 'abcd',
     maxZoom: 20
   }
 ).addTo(map);
+
 
 const list = document.getElementById('leaderboard');
 const slider = document.getElementById('scoreFilter');
