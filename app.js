@@ -1,10 +1,10 @@
 const map = L.map('map').setView([-37.814,144.96332],14);
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap contributors'}).addTo(map);
 
-
 const list = document.getElementById('leaderboard');
 const slider = document.getElementById('scoreFilter');
-const sliderValue = document.getElementById('scoreValue'
+const sliderValue = document.getElementById('scoreValue');
+``
 
 let points=[]; let markers=[];
 
