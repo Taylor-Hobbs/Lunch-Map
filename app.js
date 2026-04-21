@@ -1,6 +1,6 @@
 const map = L.map('map').setView([-37.814,144.96332],14);
 L.tileLayer(
-  'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',
+  'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
   {
     attribution: '© OpenStreetMap © CARTO',
     subdomains: 'abcd',
